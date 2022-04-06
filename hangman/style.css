@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    color: lightgray;
+    font-size: 28px;
+    font-family: 'Inconsolata', monospace;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#container{
+    width: 900px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#board{
+
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 48px;
+    min-height: 60px;
+
+}
+
+#scene{
+    text-align: center;
+}
+
+#gallows{
+    float: left;
+    width: 450px;
+    text-align: center;
+    min-height: 280px;
+}
+
+#alphabet{
+    float: left;
+    width: 450px;
+    text-align: center;
+    min-height: 280px;
+}
+
+.letter{
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid gray;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.letter:hover{
+
+    background-color: #222222;
+    color: white;
+    border-color: white;
+
+
+}
+
+.resetW{
+    color: green;
+    cursor: pointer;
+    font-size: 48px;
+}
+
+.resetW:hover{
+    color: white;
+}
+
+
+.resetL{
+    color: red;
+    cursor: pointer;
+    font-size: 48px;
+}
+
+.resetL:hover{
+    color: white;
+}
